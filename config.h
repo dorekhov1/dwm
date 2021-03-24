@@ -11,6 +11,8 @@ static int smartgaps          = 0;        /* 1 means no outer gap when there is 
 static int swallowfloating    = 0;        /* 1 means swallow floating windows by default */
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
+static int horizpadbar        = 2;        /* horizontal padding for statusbar */
+static int vertpadbar         = 0;        /* vertical padding for statusbar */
 static char font[]            = "Mononoki Nerd Font:size=8:antialias=true:autohint=true";
 static char dmenufont[]       = "monospace:size=10";
 static const char *fonts[]          = { font };
